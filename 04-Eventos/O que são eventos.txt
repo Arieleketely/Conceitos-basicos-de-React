@@ -1,0 +1,4 @@
+Podem responder ativando alguma função
+ao realizar um clique no mause.Sendo
+atrelado em uma tag que o realiza
+a função determinada no método.
