@@ -1,0 +1,13 @@
+Props e componentes
+
+Os componentes React são funções ou classes JavaScript que aceitam parâmetros, chamados props e retornar uma descrição da interface com base nesses parâmetros. Dessa forma, você pode renderizar os elementos HTML e os dados do aplicativo de uma só vez, sem escrever código adicional para atualizar valores dentro do HTML.
+
+Os parametros das funções ou classes são as props
+
+fonte:https://www.macoratti.net/18/08/react_intro4.htm#:~:text=Os%20componentes%20React%20s%C3%A3o%20fun%C3%A7%C3%B5es,atualizar%20valores%20dentro%20do%20HTML.
+
+
+Os valores herdados são passados sendo que os props recebem os valores do state e são os props passados como parametros da função.Estes paramentros são as props como se as props fosse os parametros de uma função podendo ser utilizados ao suas funçóes serem chamadas.
+
+Caso queira pegar as propriedades de uma propriedade e passar para os elementos filhos utilize o Children.
+ 
