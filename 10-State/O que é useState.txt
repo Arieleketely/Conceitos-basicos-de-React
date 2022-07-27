@@ -5,3 +5,6 @@ useState
 O useState nos permite criar estados em um componente criado a partir de uma função, assim como o state presente em componentes criados a partir de classes.Gerencia os estados do componente ele ajuda a modificar os valores de eventos atualizando os estados.
 
 fonte:https://www.treinaweb.com.br/blog/react-conheca-o-poder-dos-hooks#:~:text=O%20useState%20nos%20permite%20criar,criados%20a%20partir%20de%20classes.&text=Bem%20menos%20c%C3%B3digo%2C%20n%C3%A3o%20%C3%A9,controlar%C3%A1%20o%20estado%20do%20componente.
+
+
+Ele representa as caracteristicas daquele momento.Guarda o estado do componente.Caso queira mudar o estado usamos o setState.O único argumento para o Hook useState() é o state inicial. Diferente de classes, o state não tem que ser um objeto.Ele retorna um par de valores: o state atual e uma função que atualiza o state. 

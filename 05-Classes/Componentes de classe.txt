@@ -1,0 +1,3 @@
+Componentes de classe são componentes que possuem um alto nível de poder dentro da aplicação, pois além gerenciar o próprio estado, herdam os chamados métodos de ciclo de vida do React, lidam com partes lógicas da aplicação e manipulam eventos através de métodos que podem ser invocados em qualquer lugar do componente ou em seus filhos
+
+fonte:https://blog.geekhunter.com.br/criando-componentes-react-componentes-de-classe-e-funcional-sem-estado/#:~:text=Componentes%20de%20classe%20s%C3%A3o%20componentes,em%20qualquer%20lugar%20do%20componente

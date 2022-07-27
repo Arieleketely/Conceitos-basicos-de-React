@@ -1,0 +1,4 @@
+Elementos React são objetos simples e utilizam menos recursos
+O React DOM é o responsável por atualizar o DOM para exibir os elementos React.
+Nós o chamamos de nó raiz do DOM porque tudo dentro dele será gerenciado pelo React DOM.
+Somente são renderizados elementos atualizados o que acelera a aplicação. No caso atualizamos a hora no exemplo abaixo.
