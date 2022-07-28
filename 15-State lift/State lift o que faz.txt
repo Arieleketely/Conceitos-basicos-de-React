@@ -1,0 +1,5 @@
+Compartilha estados (compartilha state)
+
+Podemos  utilizar o estado em componentes
+diferentes os modificando de uma 
+forma distinta em cada componente
