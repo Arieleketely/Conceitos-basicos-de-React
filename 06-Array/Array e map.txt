@@ -1,0 +1,5 @@
+Podemos utilizar o map
+
+O map é uma função que cria um novo array
+de acordo com o resultado da função criando
+ um novo array.

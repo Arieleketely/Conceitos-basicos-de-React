@@ -1,0 +1,26 @@
+Reducer
+
+
+O método reduce executa uma função reducer que é fornecida pelo programador.
+Cada array tem elementos nele e com o reducer é possivel unir cada item do array em um unico elemento, resultando num único valor de retorno ao unir cada elemento do array.
+
+Map
+
+Podemos utilizar o map
+
+O map é uma função que cria um novo array
+de acordo com o resultado da função criando
+ um novo array.
+
+O método invoca a função callback passada por argumento para cada elemento do Array e devolve um novo Array como resultado.Não modifica a array antigo realizando as operações em ordem ou seja a medida qe os elementos aparecem vai realizando operações.
+
+(https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+
+
+Forach
+
+Parecido com Map é um condicional
+
+Filter
+
+Cria um novo array com todos os elementos que passaram no teste implementado pela função fornecida.(https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
