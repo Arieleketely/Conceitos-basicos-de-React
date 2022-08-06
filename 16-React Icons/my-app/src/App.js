@@ -1,25 +1,38 @@
-import React from 'react';
-import {Switch,Route,Link} from 'react-router-dom';
-import Routes from './Routes';
-import SobreEmpresa from './PaginasExtras/SobreEmpresa';
+import React from "react";
 
-import Logo from './Imagens/container.png';
+import './App.css';
+
+import SobreEmpresa from './PaginasExtras/SobreEmpresa';
+import Contato from './PaginasExtras/Contato';
+import Orcamento from './PaginasExtras/Orcamento';
+import Porfifolio from "./PaginasExtras/Portifolio";
+import { BrowserRouter, Routes, Route,Link } from 'react-router-dom';
+
+
+
 
 function App () {
   return (
-    <div>
-      <header>
+  
+          <BrowserRouter>
+          
+          <>
+<nav>
            <Link  to="/">Home</Link>
         <Link to='/SobreEmpresa'>Sobre</Link>
         <Link to='/Contato'>Contato</Link>
         <Link to='/Orcamento'>Orcamento</Link>
         <Link to='/Portifolio'>Portifolio</Link>
-       </header>
-       
-       
-
-    </div>
-       
+     </nav>
+        <Routes>     
+       <Route path="/sobreEmpresa" element={<SobreEmpresa/>} />
+          <Route path="/contato" element={<Contato/>} />
+          <Route path="/orcamento" element={<Orcamento/>} />
+          <Route path="/portifolio" element={<Porfifolio/>} />
+      </Routes>
+ 
+    </>
+    </BrowserRouter>   
   );
 };
 

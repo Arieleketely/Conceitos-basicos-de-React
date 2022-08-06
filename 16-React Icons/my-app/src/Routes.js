@@ -1,13 +1,13 @@
 import React from "react";
 import { render } from "react-dom";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-
+    
 import App from './App';
 
+import SobreEmpresa from './PaginasExtras/SobreEmpresa';
 import Contato from './PaginasExtras/Contato';
 import Orcamento from './PaginasExtras/Orcamento';
 import Portifolio from './PaginasExtras/Portifolio';
-import SobreEmpresa from './PaginasExtras/SobreEmpresa';
 
 export default function Routes(){
     return(

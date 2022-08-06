@@ -1,0 +1,10 @@
+As arrow functions permitem ter um retorno implícito, 
+que são valores retornados sem ter que usar a palavar return. 
+O conceito de funcionamento do this pode variar dependendo do
+contexto e do modo como o JavaScript esta sendo usado
+ (modo strict ou não).
+
+Uma expressão arrow function possui uma sintaxe mais curta quando comparada a uma expressão de função (function expression) e não tem seu próprio this, arguments, super ou new.target. Estas expressões de funções são melhor aplicadas para funções que não sejam métodos, e elas não podem ser usadas como construtoras (constructors).
+
+fonte:https://www.macoratti.net/19/02/js_arrow1.htm#:~:text=As%20arrow%20functions%20permitem%20ter,que%20usar%20a%20palavar%20return.&text=O%20conceito%20de%20funcionamento%20do,(modo%20strict%20ou%20n%C3%A3o).
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Functions/Arrow_functions
